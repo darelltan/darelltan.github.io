@@ -1,14 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <style>
-        .column {
-            float: left;
-            width: 50%;
-            padding: 10px;
-            height: 300px;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <title>DARELL RESUME</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Darell Resume</title>
@@ -16,10 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <link href="resume1.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-    <div class="column" style="background-color:">
+    <div class="column" style="background-color:white">
         <div class="jumbotron text-center">
             <h2>Darell Resume</h2>
         </div>
@@ -30,7 +24,7 @@
             </div>
             <div class="card_body">
                 <div class="media">
-                    <img src="image/SCC_PER_PHOTO_H_KQYDGMRSGA3DARQ=_0.png" class-"img-thumbnail align-self-center nr-3" height="150" width="150" />
+                    <img id="PIC1" src="image/SCC_PER_PHOTO_H_KQYDGMRSGA3DARQ=_0.png" class-"img-thumbnail align-self-center nr-3" height="150" width="150" />
                     <div class="media-body">
                         Name: Darell<br />
                         Age: 18<br />
@@ -43,7 +37,7 @@
             </div>
             <p></p>
             <div class="card-header">
-                <h4>Education</h4>
+                <h3>Education</h3>
             </div>
             <div class="card_body">
                 <table class="table table-striped">
@@ -60,67 +54,62 @@
                             Jan 2016 - Nov 2019<br />
                         </td>
                     </tr>
-                </table>
-                <table class="table table-striped">
                     <tr>
                         <td>
                             <img src="image/ITE.png" height="100" width="100" />
                         </td>
-                        <td>
+                        <td id="ITE">
                             <u><b>Institude of Technical Education College Central</b></u><br />
                             -Nitec in Infocomm Technology <br />
+                            Current GPA: 3.429
                         </td>
                         <td>
                             Jan 2020 - present<br />
                         </td>
-                        </tr>
-                    </table>
-            </div>
-        </div>
-    <p></p>
-    </div>
-    <div class="column" style="background-color:">
-        <div class="card-header">
-            <h4>Work Experience</h4>
-        </div>
-        <div class="card_body">
-            <table class="table table-striped">
-                <tr>
-                    <td>
-                        <img src="image/1200px-JD_Sports_logo.svg.png" height="100" width="100" />
-                    </td>
-                    <td>
-                        <u><b>Retail Assistance| JD SPORTS</b></u><br />
-                        -Sales and marketing skills to show, promote and sell the products or services.<br />
-                        -The ability to speak English fluently and interact with customer better.<br />
-                    </td>
-                    <td>
-                        Oct 2019- Dec 2019<br />
-                    </td>
-                </tr>
-            </table>
-            <table class="table table-striped">
-                <tr>
-                    <td>
-                        <img src="image/dshr.jpg" height="100" width="100" />
-                    </td>
-                    <td>
-                        <div align="left">
-                        <u><b>Banquet| DSHR</b></u><br />
-                        -Excellent Time Management<br />
-                        -Attention to details<br />
-                        -Active Listening skills<br />
-                        </div>
-                    </td>
-                    <td>
-                        Nov 2019 - Jan 2020 <br />
-                    </td>
-                </tr>
+                    </tr>
                 </table>
-        </div>
-
-        <div class="card-header">
-            <h4>Skills</h4>
+            </div>
+            <p></p>
+            <div class="card-header">
+                <h4>Work Experience</h4>
+            </div>
+            <div class="card_body">
+                <table class="table table-striped">
+                    <tr>
+                        <td>
+                            <img src="image/1200px-JD_Sports_logo.svg.png" height="100" width="100" />
+                        </td>
+                        <td>
+                            <u><b>Retail Assistance| JD SPORTS</b></u><br />
+                            -Sales and marketing skills to show, promote and sell the products or services.<br />
+                            -The ability to speak English fluently and interact with customer better.<br />
+                        </td>
+                        <td>
+                            Oct 2019- Dec 2019<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="image/dshr.jpg" height="100" width="100" />
+                        </td>
+                        <td>
+                            <div align="left">
+                                <u><b>Banquet| DSHR</b></u><br />
+                                -Excellent Time Management<br />
+                                -Attention to details<br />
+                                -Active Listening skills<br />
+                            </div>
+                        </td>
+                        <td>
+                            Nov 2019 - Jan 2020 <br />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p></p>
+            <div class="card-header">
+                <h5>Skills</h5>
+            </div>
             <div class="card_body">
                 <table class="table table-striped">
                     <tr>
@@ -130,56 +119,52 @@
                                     Basic knowledge in Cisco Packet Tracer
                                 </li>
                                 <li>
-                                    Mircrosoft Word
+                                    Proficient in Mircrosoft Word, Excel, PowerPoint
                                 </li>
                                 <li>
-                                    Excel
+                                    Proficient in Windows XP, Vista, 7, 8, 10
                                 </li>
                                 <li>
-                                    PowerPoint
+                                    Proficient in HTML
                                 </li>
                                 <li>
-                                    Windows XP,Vista,7,8,10
+                                    Proficient in Java
                                 </li>
                             </ul>
                         </td>
                     </tr>
                 </table>
             </div>
-        </div>
-        <div class="card-header">
-            <h4>certification</h4>
+            <p></p>
+            <div class="card-header">
+                <h6>Achievement and Certification</h6>
+            </div>
             <div class="card_body">
                 <table class="table table-striped">
                     <tr>
                         <td>
                             <ul>
                                 <li>
-                                    Participated in LKY Technology Competition.<br />
+                                    Participated in LKY Technology Competition.
                                 </li>
                                 <li>
-                                    ITE Digitalisation Challenge 2020.<br />
+                                    ITE Digitalisation Challenge 2020.
                                 </li>
                                 <li>
-                                    A Quick Guide To Process structured Data with Python[Alibaba]<br />
+                                    A Quick Guide To Process structured Data with Python[Alibaba]
                                 </li>
                                 <li>
-                                    Joint ITE Oracle Certificate in Essentials of Java Programming[Alibaba]<br />
+                                    Joint ITE Oracle Certificate in Essentials of Java Programming[Alibaba]
+                                <li>
+                                    Certificate of Completing IT Essentials[Cisco]
                                 </li>
                                 <li>
-                                    Using ECS to Construct a Dynamic Website[Alibaba]<br />
-                                </li>
-                                <li>
-                                    Certificate of Completing IT Essentials[Cisco]<br />
-                                </li>
-                                <li>
-                                    Certificate of completing CCNA Routing and Switching[Cisco]<br />
+                                    Certificate of completing CCNA Routing and Switching[Cisco]
                                 </li>
                             </ul>
                         </td>
                     </tr>
                 </table>
-
             </div>
         </div>
     </div>
